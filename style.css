@@ -1,0 +1,50 @@
+#upperBanner {
+    background-color: #D3D3D3;
+    display: flex;
+    flex-direction: row;
+}
+.headBut{
+    border: none;
+    padding: 4px;
+    margin: 8px;
+    background-color: #D3D3D3;
+    align-items: center;
+}
+#bannerPhoto{
+    background-image: url("images/Sunset-Bridge.jpg");
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#bannerPhoto > button{
+    background-color: green;    
+}
+.centered{
+    text-align: center;
+}
+.centered > button{
+    text-align: center;
+}
+#imgButton{
+    background-image: url("images/Augusta-National.webp");
+    color: white;
+    width: 400;
+    height: 300;
+}
+.alignButton{
+    text-align: center;
+}
+#footer{
+    text-align: center;
+    background-color: #D3D3D3;
+}
+.hover:hover{
+    color:white;
+    background-color: green;
+}
+#float{
+    float: left;
+}
